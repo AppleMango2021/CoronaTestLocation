@@ -6,8 +6,8 @@ import lombok.Getter;
 public enum APIKey {
 	Naver("X-NCP-APIGW-API-KEY-ID",
 		  "X-NCP-APIGW-API-KEY",
-		  "mrr1lb0z7z",
-		  "DaE6h2Yxbi3CMFLtNm4glz9NOlRuC3q4JavTPyxn");
+		  "발급받은 인증키",
+		  "발급받은 인증비밀번호");
 	
 	private String ClientID;
 	private String ClientPW;
